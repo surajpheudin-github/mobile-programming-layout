@@ -5,5 +5,8 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="table_layout">Table Layout</string>
     <string name="frame_layout">Frame Layout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 
 </resources>
