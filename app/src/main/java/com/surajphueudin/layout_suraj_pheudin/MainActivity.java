@@ -13,6 +13,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Take instance of Action Bar
+        // using getSupportActionBar and
+        // if it is not Null
+        // then call hide function
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
     }
 
     public void navigateToLinearLayout(View view) {
