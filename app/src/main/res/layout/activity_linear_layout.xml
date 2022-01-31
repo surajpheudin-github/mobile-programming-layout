@@ -35,11 +35,18 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="50dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/email"
                 android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_alternate_email_24" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -62,11 +69,18 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="50dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/password"
                 android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_lock_24" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
