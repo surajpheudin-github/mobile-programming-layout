@@ -38,6 +38,7 @@
                 android:background="@android:color/transparent"
                 android:text="C"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -47,6 +48,7 @@
                 android:background="@android:color/transparent"
                 android:text="( )"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -56,6 +58,7 @@
                 android:background="@android:color/transparent"
                 android:text="%"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -65,6 +68,7 @@
                 android:background="@android:color/transparent"
                 android:text="/"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
         </TableRow>
 
@@ -80,6 +84,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/seven"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -89,6 +94,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/eight"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -98,6 +104,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/nine"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -107,6 +114,7 @@
                 android:background="@android:color/transparent"
                 android:text="X"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
         </TableRow>
 
@@ -122,6 +130,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/four"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -131,6 +140,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/five"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -140,6 +150,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/six"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -149,6 +160,7 @@
                 android:background="@android:color/transparent"
                 android:text="-"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
         </TableRow>
 
@@ -164,6 +176,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/one"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -173,6 +186,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/two"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -182,6 +196,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/three"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -191,6 +206,7 @@
                 android:background="@android:color/transparent"
                 android:text="+"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
         </TableRow>
 
@@ -206,6 +222,7 @@
                 android:background="@android:color/transparent"
                 android:text="+/-"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -215,6 +232,7 @@
                 android:background="@android:color/transparent"
                 android:text="@string/zero"
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -224,6 +242,7 @@
                 android:background="@android:color/transparent"
                 android:text="."
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
 
             <Button
@@ -233,6 +252,7 @@
                 android:background="@android:color/transparent"
                 android:text="="
                 android:textColor="@color/white"
+                android:onClick="setClickedButton"
                 android:textSize="20dp" />
         </TableRow>
     </TableLayout>
